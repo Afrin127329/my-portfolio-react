@@ -25,12 +25,12 @@ const Features = () => {
         />
         <Card
           title="Full Stack Web Development"
-          des="Actively learning how to maintain a fully-fledged and functionning platform with databases and servers(MERN)."
+          des="Know how to maintain a fully-fledged and functionning platform with databases and servers(MERN)."
           icon={<SiProgress />}
         />
         <Card
-          title="Hosting Websites"
-          des="Know how to host a website along with servers. Familiar with Google Cloud, Bluehost, Hostinger, Netlify and similar."
+          title="Hosting Websites and SEO"
+          des="Deep understanding of providing server resources and storage for website accessibility and knowledgeable in optimizing websites."
           icon={<FaGlobe />}
         />
       </div>
