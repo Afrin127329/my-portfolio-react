@@ -1,21 +1,27 @@
-import React from 'react';
+import React from "react";
 import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8">
       <div className="w-full h-full flex flex-col gap-8">
-      <h3 className="text-3xl font-bold text-white">Afrin Nahar</h3>
+        <h3 className="text-3xl font-bold text-white">Afrin Nahar</h3>
         <div className="flex gap-4">
-        <span className="bannerIcon">
-            <a href='https://facebook.com/afrin4me/' ><FaFacebookF /></a>
-        </span>
-        <span className="bannerIcon">
-            <a href='https://twitter.com/AfrinNahar10'><FaTwitter /></a>
-        </span>
-        <span className="bannerIcon">
-            <a href='https://www.linkedin.com/in/afrin-nahar-b849ba1a9/'><FaLinkedinIn /></a>
-        </span>
+          <span className="bannerIcon">
+            <a href="https://facebook.com/afrin4me/">
+              <FaFacebookF />
+            </a>
+          </span>
+          <span className="bannerIcon">
+            <a href="https://twitter.com/AfrinNahar10">
+              <FaTwitter />
+            </a>
+          </span>
+          <span className="bannerIcon">
+            <a href="https://www.linkedin.com/in/afrin-nahar-b849ba1a9/">
+              <FaLinkedinIn />
+            </a>
+          </span>
         </div>
       </div>
       <div className="w-full h-full">
@@ -131,6 +137,6 @@ const Footer = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Footer
+export default Footer;

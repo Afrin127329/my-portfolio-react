@@ -1,7 +1,7 @@
 import React from 'react';
-import { DiJavascript1 } from "react-icons/di";
+import { DiJavascript1, DiMongodb, DiSass } from "react-icons/di";
 import { FaFacebookF, FaLinkedinIn, FaReact, FaTwitter } from "react-icons/fa";
-import { SiNextdotjs, SiTailwindcss } from "react-icons/si";
+import { SiExpress, SiNextdotjs, SiOpenai, SiTailwindcss } from "react-icons/si";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 
 const LeftBanner = () => {
@@ -32,23 +32,24 @@ const LeftBanner = () => {
         
         </p>
       </div>
-      <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
+      <div className="flex flex-col  gap-6 lgl:gap-0 justify-between">
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
             Find me in
           </h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
-            <a href='https://facebook.com/afrin4me/' ><FaFacebookF /></a>
+            <a target='_blank' rel="noreferrer" href='https://facebook.com/afrin4me/' ><FaFacebookF /></a>
             </span>
             <span className="bannerIcon">
-            <a href='https://twitter.com/AfrinNahar10'><FaTwitter /></a>
+            <a target='_blank' rel="noreferrer" href='https://twitter.com/AfrinNahar10'><FaTwitter /></a>
             </span>
             <span className="bannerIcon">
-            <a href='https://www.linkedin.com/in/afrin-nahar-b849ba1a9/'><FaLinkedinIn /></a>
+            <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/afrin-nahar-b849ba1a9/'><FaLinkedinIn /></a>
             </span>
           </div>
         </div>
+        <br />
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
             BEST SKILL ON
@@ -64,7 +65,19 @@ const LeftBanner = () => {
               <SiTailwindcss />
             </span>
             <span className="bannerIcon">
+              <DiSass />
+            </span>
+            <span className="bannerIcon">
               <DiJavascript1/>
+            </span>
+            <span className="bannerIcon">
+              <SiExpress/>
+            </span>
+            <span className="bannerIcon">
+              <DiMongodb/>
+            </span>
+            <span className="bannerIcon">
+              <SiOpenai/>
             </span>
           </div>
         </div>
