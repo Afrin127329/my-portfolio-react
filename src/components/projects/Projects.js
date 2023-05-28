@@ -18,7 +18,7 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-6 xl:gap-14">
         {/* 1: Promptopia(Text Summerizer) */}
         <ProjectsCard
-          title="Promptopia (Full Stack Text Summerizer with Next 13.4"
+          title="Promptopia (Full Stack Text Summerizer with Next 13.4)"
           des="Promptopia is an exceptional project that utilizes OpenAI's chatbot to offer an incredible text summarization feature. Users can summarize texts and share them on the community page. With Google sign-up integration, the web app is built using the latest Next.js 13.4 app directory and incorporates a serverless routing system for optimal performance."
           src={prompt}
           gitlink="https://github.com/Afrin127329/full-stack-next13-ai-app"
@@ -46,6 +46,7 @@ const Projects = () => {
           des="The innovative Chrome extension boasts a remarkable feature that automates email composition with a single click within the mailbox. Leveraging the power of OpenAI's chatbot, it intelligently completes email lines, saving users valuable time and effort. This seamless integration of the chatbot enhances email productivity and streamlines communication workflows."
           src={assitant}
           gitlink="https://github.com/Afrin127329/email-assistant"
+          livesite="https://www.youtube.com/watch?v=waHuG-LUtMQ"
         />
         {/* 5: Gericth  */}
         <ProjectsCard
