@@ -1,12 +1,12 @@
 import React from 'react';
 import { DiJavascript1, DiMongodb, DiSass } from "react-icons/di";
-import { FaFacebookF, FaLinkedinIn, FaReact, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaGithub, FaLinkedinIn, FaReact, FaTwitter } from "react-icons/fa";
 import { SiExpress, SiNextdotjs, SiOpenai, SiTailwindcss } from "react-icons/si";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Professional Coder.", "Full Stack Developer.", "Front End Developer."],
+      words: ["Passionate Coder.", "Front End Developer."],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 10,
@@ -17,7 +17,7 @@ const LeftBanner = () => {
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">WELCOME TO MY PORTFOLIO</h4>
         <h1 className="text-6xl font-bold text-white">
-          Hi, I'm <span className="text-designColor capitalize">Afrin Nahar</span>
+          Hi, I'm <span className="text-designColor capitalize font-serif">Afrin Nahar</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
           a <span>{text}</span>
@@ -28,11 +28,10 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-        A self-taught programmer with 1 year of dedicated experience in Front End Web Development. Finally I am confident enough to break through the tech industry to implement my skills. I am a passionate programmern to explore new challenges and dedicated to manage any challenging work from start.
-        
+        A self-taught front-end web developer with 1 year of dedicated practice. Seeking an opportunity to contribute my skills, passion for programming, and enthusiasm to tackle new challenges and deliver high-quality work.
         </p>
       </div>
-      <div className="flex flex-col  gap-6 lgl:gap-0 justify-between">
+      <div className="flex flex-col  gap-6 lgl:gap-6 justify-between">
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
             Find me in
@@ -47,14 +46,17 @@ const LeftBanner = () => {
             <span className="bannerIcon">
             <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/afrin-nahar-b849ba1a9/'><FaLinkedinIn /></a>
             </span>
+            <span className="bannerIcon">
+            <a target='_blank' rel="noreferrer" href='https://github.com/Afrin127329/'><FaGithub /></a>
+            </span>
           </div>
         </div>
         <br />
         <div>
-          <h2 className="text-base uppercase font-titleFont mb-4">
+          <h2 className="text-base uppercase font-titleFont mb-4 ">
             BEST SKILL ON
           </h2>
-          <div className="flex gap-4">
+          <div className="flex gap-4 flex-wrap">
             <span className="bannerIcon">
               <FaReact />
             </span>

@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div>
-        <h2>AFRIN - Front End Developer</h2>
+        <h2 className='font-serif'>AFRIN</h2>
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
@@ -41,12 +41,12 @@ const Navbar = () => {
         {showMenu && (
           <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
             <div className="flex flex-col gap-8 py-2 relative">
-              <div>
+              {/* <div>
               <h2>AFRIN - Front End Developer</h2>
                 <p className="text-sm text-gray-400 mt-2">
                 To be honest, I don't have 3/4 years of experience in this field. But I have spent almost 8 to 10 hrs/day learning concepts, practicing them, making some great projects since I started to explore Web Development. And Finally I am confident that I am able to solve specific problems for my clients along with making fully fledged websites.
                 </p>
-              </div>
+              </div> */}
               <ul className="flex flex-col gap-4">
                 {navLinksdata.map((item) => (
                   <li
