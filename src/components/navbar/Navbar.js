@@ -79,7 +79,7 @@ const Navbar = () => {
                     <a href='https://twitter.com/AfrinNahar10'><FaTwitter /></a>
                   </span>
                   <span className="bannerIcon">
-                    <a href='https://www.linkedin.com/in/afrin-nahar-dev/'><FaLinkedinIn /></a>
+                    <a href='https://www.linkedin.com/in/afrin-nahar-332575284/'><FaLinkedinIn /></a>
                   </span>
                 </div>
               </div>
