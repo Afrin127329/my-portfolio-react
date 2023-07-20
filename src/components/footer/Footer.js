@@ -18,7 +18,7 @@ const Footer = () => {
             </a>
           </span>
           <span className="bannerIcon">
-            <a href="https://www.linkedin.com/in/afrin-nahar-dev/">
+            <a href="https://www.linkedin.com/in/afrin-nahar-332575284/">
               <FaLinkedinIn />
             </a>
           </span>
