@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -17,11 +17,11 @@ const Footer = () => {
               <FaTwitter />
             </a>
           </span>
-          <span className="bannerIcon">
+          {/* <span className="bannerIcon">
             <a href="https://www.linkedin.com/in/afrin-nahar-332575284/">
               <FaLinkedinIn />
             </a>
-          </span>
+          </span> */}
         </div>
       </div>
       <div className="w-full h-full">

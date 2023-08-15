@@ -1,6 +1,6 @@
 import React from 'react';
 import { DiJavascript1, DiMongodb, DiSass } from "react-icons/di";
-import { FaFacebookF, FaGithub, FaLinkedinIn, FaReact, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaGithub, FaReact, FaTwitter } from "react-icons/fa";
 import { SiExpress, SiNextdotjs, SiOpenai, SiTailwindcss } from "react-icons/si";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 
@@ -43,9 +43,9 @@ const LeftBanner = () => {
             <span className="bannerIcon">
             <a target='_blank' rel="noreferrer" href='https://twitter.com/AfrinNahar10'><FaTwitter /></a>
             </span>
-            <span className="bannerIcon">
+            {/* <span className="bannerIcon">
             <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/afrin-nahar-332575284/'><FaLinkedinIn /></a>
-            </span>
+            </span> */}
             <span className="bannerIcon">
             <a target='_blank' rel="noreferrer" href='https://github.com/Afrin127329/'><FaGithub /></a>
             </span>

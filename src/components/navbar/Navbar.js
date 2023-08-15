@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaTwitter } from "react-icons/fa";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { Link } from "react-scroll";
@@ -78,9 +78,9 @@ const Navbar = () => {
                   <span className="bannerIcon">
                     <a href='https://twitter.com/AfrinNahar10'><FaTwitter /></a>
                   </span>
-                  <span className="bannerIcon">
+                  {/* <span className="bannerIcon">
                     <a href='https://www.linkedin.com/in/afrin-nahar-332575284/'><FaLinkedinIn /></a>
-                  </span>
+                  </span> */}
                 </div>
               </div>
               <span
