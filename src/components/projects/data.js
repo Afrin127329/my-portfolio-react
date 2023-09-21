@@ -1,4 +1,4 @@
-import { assitant, ecommerce, fiverr, gericth2, metaversus, prompt } from "../../assets/index";
+import { assitant, ecommerce, finanseer1, finanseer2, fitness1, fitness2, fitness3, fitness4, fiverr, gericth2, metaversus, prompt, } from "../../assets/index";
 
 export const data = [
     {
@@ -35,6 +35,22 @@ export const data = [
     },
     {
         id: 5,
+        name: "Finanseer(Admin Dashboard)",
+        desc: "Introducing our finance management platform, built with Redux, TypeScript, Material UI, Express, and machine learning. Get a clear view of your yearly income and expenses on an intuitive dashboard for easy price and cost comparisons. Keep tabs on product performance to make smart inventory and pricing decisions. Identify cost-saving opportunities with a breakdown of operational and non-operational expenses. Plus, harness the power of machine learning to predict future revenue.",
+        img: [finanseer1, finanseer2],
+        gitUrl: "https://github.com/Afrin127329/admin-dashboard",
+        liveLink: "https://admin-dashboard-t1.vercel.app/"
+    },
+    {
+        id: 6,
+        name: "Your Fitness Solution",
+        desc: "Introducing a sleek and efficient fitness application designed with stunning styles powered by Tailwind CSS. This single-page wonder is crafted using React in the front end, leveraging the power of TypeScript for enhanced reliability and development speed. With this user-friendly interface, you can effortlessly submit your fitness goals and preferences to book a personalized coaching call.",
+        img: [fitness1, fitness2, fitness3, fitness4],
+        gitUrl: "https://github.com/Afrin127329/fitness-app",
+        liveLink: "https://fitness-app-teal-six.vercel.app/"
+    },
+    {
+        id: 7,
         name: "Gericth Restaurent(Single Page)",
         desc: "A modern UI/UX (figma) design converted into a live website with Reactjs, following famous BEM methodology in CSS.",
         img: [gericth2],
@@ -42,7 +58,7 @@ export const data = [
         liveLink: "https://afrins-gericht-restaurent.netlify.app/"
     },
     {
-        id: 6,
+        id: 8,
         name: "Metaversus",
         desc: "The website is a single page Application that is built with Next13, Reactjs, TailwindCSS and most importantly Framer Motion for amazing Animation.",
         img: [metaversus],
