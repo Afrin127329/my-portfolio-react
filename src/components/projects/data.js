@@ -1,4 +1,4 @@
-import { assitant, ecommerce, finanseer1, finanseer2, fitness1, fitness2, fitness3, fitness4, fiverr, gericth2, metaversus, prompt, } from "../../assets/index";
+import { assitant, ecommerce, finanseer1, finanseer2, fitness1, fitness2, fitness3, fitness4, fiverr, fiverr1, fiverr2, fiverr3, fiverr4, fiverr5, fiverr6, fiverr7, gericth2, metaversus, prompt } from "../../assets/index";
 
 export const data = [
     {
@@ -21,7 +21,7 @@ export const data = [
         id: 3,
         name: "Liverr(Full Stack Fiverr Clone)",
         desc: "The Fiverr clone project offers buyer and seller accounts, enabling sellers to create gigs and buyers to make purchases using Stripe payment. After purchasing a gig, buyers can leave reviews with 5-star ratings. The platform features a page to explore all sellers' gigs, and a chat section allows buyers and sellers to communicate after a gig purchase.",
-        img: [fiverr],
+        img: [fiverr, fiverr1, fiverr2, fiverr3, fiverr4, fiverr5, fiverr6, fiverr7],
         gitUrl: "https://github.com/Afrin127329/full-stack-fiverr-app",
         liveLink: "https://full-stack-fiverr-app.vercel.app/"
     },
