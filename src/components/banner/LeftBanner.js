@@ -6,7 +6,7 @@ import { Cursor, useTypewriter } from "react-simple-typewriter";
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Passionate Coder.", "Front End Developer."],
+      words: ["Passionate Coder.", "Full Stack Developer.", "Software Developer"],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 10,
