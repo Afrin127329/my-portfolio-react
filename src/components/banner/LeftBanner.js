@@ -1,6 +1,7 @@
 import React from 'react';
 import { DiJavascript1, DiMongodb, DiSass } from "react-icons/di";
-import { FaFacebookF, FaGithub, FaReact, FaXTwitter } from "react-icons/fa";
+import { FaFacebookF, FaGithub, FaReact } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { SiExpress, SiNextdotjs, SiOpenai, SiTailwindcss } from "react-icons/si";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 

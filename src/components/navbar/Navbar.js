@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { FaFacebookF, FaXTwitter } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { Link } from "react-scroll";
