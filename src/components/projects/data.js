@@ -3,11 +3,11 @@ import { assitant, ecommerce, finanseer1, finanseer2, fitness1, fitness2, fitnes
 export const data = [
     {
         id: 1,
-        name: "Promptopia (Full Stack Text Summerizer with Next 13.4)",
-        desc: "Promptopia is an exceptional project that utilizes OpenAI's chatbot to offer an incredible text summarization feature. Users can summarize texts and share them on the community page. With Google sign-up integration, the web app is built using the latest Next.js 13.4 app directory and incorporates a serverless routing system for optimal performance.",
-        img: [prompt],
-        gitUrl: "https://github.com/Afrin127329/full-stack-next13-ai-app",
-        liveLink: "https://full-stack-next13-ai-app.vercel.app/"
+        name: "Liverr(Full Stack Fiverr Clone)",
+        desc: "The Fiverr clone project offers buyer and seller accounts, enabling sellers to create gigs and buyers to make purchases using Stripe payment. After purchasing a gig, buyers can leave reviews with 5-star ratings. The platform features a page to explore all sellers' gigs, and a chat section allows buyers and sellers to communicate after a gig purchase.",
+        img: [fiverr, fiverr1, fiverr2, fiverr3, fiverr4, fiverr5, fiverr6, fiverr7],
+        gitUrl: "https://github.com/Afrin127329/full-stack-fiverr-app",
+        liveLink: "https://full-stack-fiverr-app.vercel.app/"
     },
     {
         id: 2,
@@ -19,11 +19,11 @@ export const data = [
     },
     {
         id: 3,
-        name: "Liverr(Full Stack Fiverr Clone)",
-        desc: "The Fiverr clone project offers buyer and seller accounts, enabling sellers to create gigs and buyers to make purchases using Stripe payment. After purchasing a gig, buyers can leave reviews with 5-star ratings. The platform features a page to explore all sellers' gigs, and a chat section allows buyers and sellers to communicate after a gig purchase.",
-        img: [fiverr, fiverr1, fiverr2, fiverr3, fiverr4, fiverr5, fiverr6, fiverr7],
-        gitUrl: "https://github.com/Afrin127329/full-stack-fiverr-app",
-        liveLink: "https://full-stack-fiverr-app.vercel.app/"
+        name: "Promptopia (Full Stack Text Summerizer with Next 13.4)",
+        desc: "Promptopia is an exceptional project that utilizes OpenAI's chatbot to offer an incredible text summarization feature. Users can summarize texts and share them on the community page. With Google sign-up integration, the web app is built using the latest Next.js 13.4 app directory and incorporates a serverless routing system for optimal performance.",
+        img: [prompt],
+        gitUrl: "https://github.com/Afrin127329/full-stack-next13-ai-app",
+        liveLink: "https://full-stack-next13-ai-app.vercel.app/"
     },
     {
         id: 4,
