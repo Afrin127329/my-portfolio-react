@@ -54,8 +54,8 @@ export const data = [
         name: "Job Search Mobile Application(React Native)",
         desc: "A Job search application that includes functionalities like Search job directly from any location, See popular and suggested jobs, Filter by job types, apply directly in the browser, Specialty of this application is it shows jobs from different portals like Glassdoor, Indeed, Linkedin etc. Tech Stack: React Native, Typescript, JSearch API from Rapid API, React Native Stylesheet",
         img: [jobsearch1, jobsearch2, jobsearch3, jobsearch4, jobsearch5, jobsearch6, jobsearch7],
-        gitUrl: "https://github.com/Afrin127329/frontend-gericht-restaurent",
-        liveLink: "https://afrins-gericht-restaurent.netlify.app/"
+        gitUrl: "https://github.com/Afrin127329/job-search-app",
+        liveLink: "https://www.youtube.com/watch?v=q5FmxX6v460"
     },
     // {
     //     id: 7,
