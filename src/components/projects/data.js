@@ -1,4 +1,4 @@
-import { assitant, ecommerce, finanseer1, finanseer2, fitness1, fitness2, fitness3, fitness4, fiverr, fiverr1, fiverr2, fiverr3, fiverr4, fiverr5, fiverr6, fiverr7, gericth2, metaversus, prompt } from "../../assets/index";
+import { assitant, ecommerce, finanseer1, finanseer2, fitness1, fitness2, fitness3, fitness4, fiverr, fiverr1, fiverr2, fiverr3, fiverr4, fiverr5, fiverr6, fiverr7, jobsearch1, jobsearch2, jobsearch3, jobsearch4, jobsearch5, jobsearch6, jobsearch7, metaversus, prompt } from "../../assets/index";
 
 export const data = [
     {
@@ -51,12 +51,20 @@ export const data = [
     },
     {
         id: 7,
-        name: "Gericth Restaurent(Single Page)",
-        desc: "A modern UI/UX (figma) design converted into a live website with Reactjs, following famous BEM methodology in CSS.",
-        img: [gericth2],
+        name: "Job Search Mobile Application(React Native)",
+        desc: "A Job search application that includes functionalities like Search job directly from any location, See popular and suggested jobs, Filter by job types, apply directly in the browser, Specialty of this application is it shows jobs from different portals like Glassdoor, Indeed, Linkedin etc. Tech Stack: React Native, Typescript, JSearch API from Rapid API, React Native Stylesheet",
+        img: [jobsearch1, jobsearch2, jobsearch3, jobsearch4, jobsearch5, jobsearch6, jobsearch7],
         gitUrl: "https://github.com/Afrin127329/frontend-gericht-restaurent",
         liveLink: "https://afrins-gericht-restaurent.netlify.app/"
     },
+    // {
+    //     id: 7,
+    //     name: "Gericth Restaurent(Single Page)",
+    //     desc: "A modern UI/UX (figma) design converted into a live website with Reactjs, following famous BEM methodology in CSS.",
+    //     img: [gericth2],
+    //     gitUrl: "https://github.com/Afrin127329/frontend-gericht-restaurent",
+    //     liveLink: "https://afrins-gericht-restaurent.netlify.app/"
+    // },
     {
         id: 8,
         name: "Metaversus",
