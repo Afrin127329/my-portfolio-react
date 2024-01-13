@@ -22,6 +22,13 @@ import gericth from './images/projects/gericth.png';
 import gericth2 from './images/projects/gericth2.png';
 import gpt3 from './images/projects/gpt3.png';
 import hoobank from './images/projects/hoobank.png';
+import jobsearch1 from './images/projects/js1.png';
+import jobsearch2 from './images/projects/js2.png';
+import jobsearch3 from './images/projects/js3.png';
+import jobsearch4 from './images/projects/js4.png';
+import jobsearch5 from './images/projects/js5.png';
+import jobsearch6 from './images/projects/js6.png';
+import jobsearch7 from './images/projects/js7.png';
 import metaversus from './images/projects/metaversus.png';
 import projectOne from "./images/projects/projectOne.jpg";
 import projectThree from "./images/projects/projectThree.jpeg";
@@ -34,6 +41,6 @@ export {
   finanseer2, fitness1, fitness2, fitness3, fitness4, fiverr, fiverr1, fiverr2, fiverr3, fiverr4, fiverr5, fiverr6, fiverr7, gericth,
   gericth2,
   gpt3,
-  hoobank, metaversus, projectOne, projectThree, projectTwo, prompt
+  hoobank, jobsearch1, jobsearch2, jobsearch3, jobsearch4, jobsearch5, jobsearch6, jobsearch7, metaversus, projectOne, projectThree, projectTwo, prompt
 };
 
