@@ -1,4 +1,4 @@
-import { assitant, ecommerce, finanseer1, finanseer2, fitness1, fitness2, fitness3, fitness4, fiverr, fiverr1, fiverr2, fiverr3, fiverr4, fiverr5, fiverr6, fiverr7, jobsearch1, jobsearch2, jobsearch3, jobsearch4, jobsearch5, jobsearch6, jobsearch7, metaversus, prompt } from "../../assets/index";
+import { assitant, ecom1, ecom10, ecom2, ecom3, ecom4, ecom5, ecom6, ecom7, ecom8, ecom9, ecommerce, finanseer1, finanseer2, fitness1, fitness2, fitness3, fitness4, fiverr, fiverr1, fiverr2, fiverr3, fiverr4, fiverr5, fiverr6, fiverr7, jobsearch1, jobsearch2, jobsearch3, jobsearch4, jobsearch5, jobsearch6, jobsearch7, metaversus, prompt, } from "../../assets/index";
 
 export const data = [
     {
@@ -13,7 +13,7 @@ export const data = [
         id: 2,
         name: "Ecommerce website(Full Stack)",
         desc: "The ecommerce project offers user and admin registration with separate dashboards. Users can add items to their cart and make payments through Stripe. After successful payment, the admin can mark orders as completed or processing. The admin has full control over creating, deleting, and updating categories and products. The homepage includes filters for easy product navigation. (Admin Credentials: email: admin@gmail.com and password: admin",
-        img: [ecommerce],
+        img: [ecommerce, ecom1, ecom2, ecom3, ecom4, ecom5, ecom6, ecom7, ecom8, ecom9, ecom10],
         gitUrl: "https://github.com/Afrin127329/full-stack-ecommerce",
         liveLink: "https://vivacious-rose-rabbit.cyclic.app/"
     },
