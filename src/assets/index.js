@@ -1,6 +1,4 @@
-import bannerImg from "./images/bannerImg.png";
-import bannerImg2 from "./images/bannerImg2.jpg";
-import afrin12345 from './images/contact/afrin12345.jpg';
+import bannerImg from "./images/af2.png";
 import contactImg from "./images/contact/contactImg.png";
 import ecom1 from './images/projects/e1.png';
 import ecom10 from './images/projects/e10.png';
@@ -46,8 +44,8 @@ import projectTwo from "./images/projects/projectTwo.jpg";
 import prompt from "./images/projects/promptopia.png";
 
 export {
-  afrin12345, assitant, bannerImg,
-  bannerImg2, contactImg, ecom1, ecom10, ecom2, ecom3, ecom4, ecom5, ecom6, ecom7, ecom8, ecom9, ecommerce, finanseer1,
+  assitant, bannerImg,
+  contactImg, ecom1, ecom10, ecom2, ecom3, ecom4, ecom5, ecom6, ecom7, ecom8, ecom9, ecommerce, finanseer1,
   finanseer2, fitness1, fitness2, fitness3, fitness4, fiverr, fiverr1, fiverr2, fiverr3, fiverr4, fiverr5, fiverr6, fiverr7, gericth,
   gericth2,
   gpt3,
