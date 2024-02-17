@@ -50,6 +50,7 @@ const form = useRef();
           });
       setSuccessMsg(
         `Thank you dear ${username}, Your Messages has been sent Successfully!`
+       
       );
       setErrMsg("");
       setUsername("");
@@ -57,6 +58,19 @@ const form = useRef();
       setEmail("");
       setSubject("");
       setMessage("");
+
+      const hideMessage = () => {
+        const msg = document.querySelector('.successMsg');
+        const msg2 = document.getElementById('msg');
+        if (msg) {
+          msg.style.display = 'none';
+          msg2.style.display = 'none';
+        }
+      }
+
+      setTimeout(() => {
+        hideMessage();
+      }, 3000);
     }
 }
     
@@ -85,7 +99,7 @@ const form = useRef();
                 </p>
               )}
               {successMsg && (
-                <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-green-500 text-base tracking-wide animate-bounce">
+                <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-green-500 text-base tracking-wide animate-bounce successMsg">
                   {successMsg}
                 </p>
               )}
@@ -179,7 +193,7 @@ const form = useRef();
                 </p>
               )}
               {successMsg && (
-                <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-green-500 text-base tracking-wide animate-bounce">
+                <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-green-500 text-base tracking-wide animate-bounce" id='msg'>
                   {successMsg}
                 </p>
               )}
