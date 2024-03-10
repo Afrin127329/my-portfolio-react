@@ -46,10 +46,22 @@ const Education = () => {
             des="Led a team of three interns in developing a complex project using Next.js, TailwindCSS, and MongoDB, completed 70% of the website and hosted on AWS. References and source code is available."
           />
           <ResumeCard
+            title="Freelance Web Developer"
+            subTitle="Upwork & Private Clients (August, 23 - Present)"
+            result="Remote"
+            des="Working on different freelance projects time to time with different clients, mostly with private ones."
+          />
+          <ResumeCard
             title="Web Developer (Remote)"
-            subTitle="Softcode Digital Solution (September, 23 - Present)"
+            subTitle="Softcode Digital Solution (September, 23 - February, 24)"
             result="Bangladesh"
             des="In a collaborative, friendly setting, I develop web/mobile solutions using diverse technologies. Mentored in Agile(Scrum) with Jira by experienced software engineers for global clients."
+          />
+          <ResumeCard
+            title="Web Developer (Onsite)"
+            subTitle="Points Soft Ltd. (February, 24 - Present)"
+            result="Bangladesh"
+            des="Collaborating in building Saas products end to end using Raw Javascript, Grapesjs, Vue.js, PHP etc."
           />
         </div>
       </div>
