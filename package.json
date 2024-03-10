@@ -1,5 +1,5 @@
 {
-  "name": "afrin-portfolion-react",
+  "name": "afrin-portfolio-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,6 +7,8 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
     "framer-motion": "^10.8.2",
     "infinite-react-carousel": "^1.2.11",
     "react": "^18.2.0",
@@ -18,11 +20,12 @@
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",
     "tailwindcss": "^3.2.7",
+    "typescript": "^5.4.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "tsc && react-scripts start",
+    "build": "tsc && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
